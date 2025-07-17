@@ -1,6 +1,6 @@
 import Header from "../components/header";
 import Home from "../components/home";
-import Services from "../components/about";
+import Services from "../components/services";
 import About from "../components/about";
 import Footer from "../components/footer";
 

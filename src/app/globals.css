@@ -1,7 +1,24 @@
-@import "tailwindcss/preflight";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
-/* Estilos globais personalizados opcionais */
+@layer utilities {
+  .border-border {
+    border-color: var(--color-border);
+  }
+
+  .outline-ring-50 {
+    outline-color: var(--ring);
+    outline-style: solid;
+    outline-width: 1px;
+    opacity: 0.5;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
 body {
   font-family: sans-serif;
 }
@@ -776,14 +793,3 @@ footer{
   --sidebar-ring: oklch(0.556 0 0);
 }
 
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
-@layer utilities {
-  
-}
