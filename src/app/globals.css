@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+/* @layer utilities {
   .border-border {
     border-color: var(--color-border);
-  }
+  } */
 
   .outline-ring-50 {
     outline-color: var(--ring);
@@ -14,10 +14,10 @@
     opacity: 0.5;
   }
 
-  body {
+  /* body {
     @apply bg-background text-foreground;
   }
-}
+} */
 
 body {
   font-family: sans-serif;
