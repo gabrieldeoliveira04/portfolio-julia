@@ -191,8 +191,9 @@ span{
     padding: 5;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .home-img{
@@ -615,9 +616,11 @@ footer{
     }
 
     .home, .about{
+        display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
     }
 
     .home-img{
@@ -626,7 +629,7 @@ footer{
     }
 
     .about-img{
-        width: 50%;
+        width: 100%;
         max-width:100%;
     }
 
