@@ -1,9 +1,6 @@
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="about-img">
-        <img src="LOGO.jpeg" alt="Sobre mim" />
-      </div>
 
       <div className="about-content">
         <h3>Sobre mim:</h3>
@@ -11,6 +8,10 @@ export default function About() {
         <h1>
           Esteticista <span>Profissional</span>
         </h1>
+
+        <div className="about-img">
+        <img src="LOGO.jpeg" alt="Sobre mim" />
+      </div>
 
         <p>
 Olá! Meu nome é Julia, sou esteticista especializada em cuidados faciais e apaixonada pelo que faço. <span>Acredito que a beleza começa com o autocuidado e, por isso, meu trabalho vai muito além da estética — ele é sobre bem-estar, autoestima e acolhimento.</span>
